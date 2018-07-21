@@ -53,18 +53,21 @@ class TableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "celula", for: indexPath)
-        
-        
-      
+        let cell = tableView.dequeueReusableCell(withIdentifier: "celula", for: indexPath) as! TableViewCell
+    
         let personagem = self.cadastro.get(index: indexPath.row)
-        cell.textLabel?.text = personagem.nome
-       
-        //let url = URL(string: personagem.url)
-       //let data = try? Data(contentsOf: url!) //make sure your image in this url does exist, otherwise unwrap in a if let check / try-catch
+        print("p.url: \(personagem.url)")
+        let url = URL(string: personagem.url)
+        let data = try? Data(contentsOf: url!)  // try-catch
+        if(data != nil){
+           let image = UIImage(data: data!)
+           cell.photo?.image = image
+        }
+        cell.nome?.text = personagem.nome
+        
+        //cell.textLabel?.text = personagem.nome
+        //cell.imageView?.image = image
 
-        //cell.imageView?.image = UIImage(data: data!)
-       
         return cell
     }
     
