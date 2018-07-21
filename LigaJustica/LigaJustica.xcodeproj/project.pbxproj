@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14E3EA0221034C2D0041B02C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E3EA0121034C2D0041B02C /* AppDelegate.swift */; };
+		14E3EA0721034C2D0041B02C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E3EA0521034C2D0041B02C /* Main.storyboard */; };
+		14E3EA0921034C330041B02C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E3EA0821034C330041B02C /* Assets.xcassets */; };
+		14E3EA0C21034C330041B02C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E3EA0A21034C330041B02C /* LaunchScreen.storyboard */; };
+		14E3EA1721034D660041B02C /* Personagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E3EA1621034D660041B02C /* Personagem.swift */; };
+		14E3EA1921034FD10041B02C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E3EA1821034FD10041B02C /* TableViewController.swift */; };
+		14E3EA1C2103532F0041B02C /* SobreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E3EA1B2103532F0041B02C /* SobreViewController.swift */; };
+		14E3EA1E2103534E0041B02C /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E3EA1D2103534E0041B02C /* FormViewController.swift */; };
+		14E3EA222103553C0041B02C /* Cadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E3EA212103553C0041B02C /* Cadastro.swift */; };
+		14E3EA24210381BE0041B02C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E3EA23210381BE0041B02C /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14E3E9FE21034C2D0041B02C /* LigaJustica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LigaJustica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E3EA0121034C2D0041B02C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14E3EA0621034C2D0041B02C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14E3EA0821034C330041B02C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14E3EA0B21034C330041B02C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14E3EA0D21034C330041B02C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E3EA1621034D660041B02C /* Personagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personagem.swift; sourceTree = "<group>"; };
+		14E3EA1821034FD10041B02C /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		14E3EA1B2103532F0041B02C /* SobreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SobreViewController.swift; sourceTree = "<group>"; };
+		14E3EA1D2103534E0041B02C /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		14E3EA212103553C0041B02C /* Cadastro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cadastro.swift; sourceTree = "<group>"; };
+		14E3EA23210381BE0041B02C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14E3E9FB21034C2D0041B02C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14E3E9F521034C2C0041B02C = {
+			isa = PBXGroup;
+			children = (
+				14E3EA0021034C2D0041B02C /* LigaJustica */,
+				14E3E9FF21034C2D0041B02C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14E3E9FF21034C2D0041B02C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14E3E9FE21034C2D0041B02C /* LigaJustica.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14E3EA0021034C2D0041B02C /* LigaJustica */ = {
+			isa = PBXGroup;
+			children = (
+				14E3EA1521034CCD0041B02C /* View */,
+				14E3EA1421034CBE0041B02C /* Controller */,
+				14E3EA1321034CAF0041B02C /* Model */,
+				14E3EA0121034C2D0041B02C /* AppDelegate.swift */,
+				14E3EA0821034C330041B02C /* Assets.xcassets */,
+				14E3EA0A21034C330041B02C /* LaunchScreen.storyboard */,
+				14E3EA0D21034C330041B02C /* Info.plist */,
+			);
+			path = LigaJustica;
+			sourceTree = "<group>";
+		};
+		14E3EA1321034CAF0041B02C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14E3EA1621034D660041B02C /* Personagem.swift */,
+				14E3EA212103553C0041B02C /* Cadastro.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14E3EA1421034CBE0041B02C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				14E3EA1821034FD10041B02C /* TableViewController.swift */,
+				14E3EA1B2103532F0041B02C /* SobreViewController.swift */,
+				14E3EA1D2103534E0041B02C /* FormViewController.swift */,
+				14E3EA23210381BE0041B02C /* TableViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		14E3EA1521034CCD0041B02C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14E3EA0521034C2D0041B02C /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14E3E9FD21034C2D0041B02C /* LigaJustica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14E3EA1021034C330041B02C /* Build configuration list for PBXNativeTarget "LigaJustica" */;
+			buildPhases = (
+				14E3E9FA21034C2D0041B02C /* Sources */,
+				14E3E9FB21034C2D0041B02C /* Frameworks */,
+				14E3E9FC21034C2D0041B02C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LigaJustica;
+			productName = LigaJustica;
+			productReference = 14E3E9FE21034C2D0041B02C /* LigaJustica.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14E3E9F621034C2C0041B02C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = IFPB;
+				TargetAttributes = {
+					14E3E9FD21034C2D0041B02C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 14E3E9F921034C2C0041B02C /* Build configuration list for PBXProject "LigaJustica" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14E3E9F521034C2C0041B02C;
+			productRefGroup = 14E3E9FF21034C2D0041B02C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14E3E9FD21034C2D0041B02C /* LigaJustica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14E3E9FC21034C2D0041B02C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E3EA0C21034C330041B02C /* LaunchScreen.storyboard in Resources */,
+				14E3EA0921034C330041B02C /* Assets.xcassets in Resources */,
+				14E3EA0721034C2D0041B02C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14E3E9FA21034C2D0041B02C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E3EA222103553C0041B02C /* Cadastro.swift in Sources */,
+				14E3EA1721034D660041B02C /* Personagem.swift in Sources */,
+				14E3EA0221034C2D0041B02C /* AppDelegate.swift in Sources */,
+				14E3EA1C2103532F0041B02C /* SobreViewController.swift in Sources */,
+				14E3EA1E2103534E0041B02C /* FormViewController.swift in Sources */,
+				14E3EA24210381BE0041B02C /* TableViewCell.swift in Sources */,
+				14E3EA1921034FD10041B02C /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14E3EA0521034C2D0041B02C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14E3EA0621034C2D0041B02C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14E3EA0A21034C330041B02C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14E3EA0B21034C330041B02C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14E3EA0E21034C330041B02C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14E3EA0F21034C330041B02C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14E3EA1121034C330041B02C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LigaJustica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.ifpb.edu.LigaJustica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14E3EA1221034C330041B02C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LigaJustica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.ifpb.edu.LigaJustica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14E3E9F921034C2C0041B02C /* Build configuration list for PBXProject "LigaJustica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E3EA0E21034C330041B02C /* Debug */,
+				14E3EA0F21034C330041B02C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14E3EA1021034C330041B02C /* Build configuration list for PBXNativeTarget "LigaJustica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E3EA1121034C330041B02C /* Debug */,
+				14E3EA1221034C330041B02C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14E3E9F621034C2C0041B02C /* Project object */;
+}
